@@ -9,6 +9,7 @@ public class Principal {
 		System.out.println(bd.ligacoesPorCliente("Evandro da Silva"));
 		System.out.println(bd.ligacoesPorUF("DF"));
 		System.out.println(bd.ligacoesUFDiferente());
+		System.out.println(bd.getInfoContaPagar("Evandro da Silva"));
 		
 
 	}

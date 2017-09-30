@@ -134,19 +134,24 @@ public class BDSimulado {
 		}
     	return resultado;
     }
-   
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    //Exercicio 3.a
+    public String getInfoContaPagar (String nome){
+    	String resultado = "";
+    	
+    	for (int i = 0; i < this.ligacoes.size(); i++) {
+			if (this.ligacoes.get(i).getCliente().getNome().equals(nome)) {
+				resultado ="---Conta de Celular---" + "\n" + 
+							"-Dados do Client-" + "\n" + 
+							"Nome: " + this.ligacoes.get(i).getCliente().getNome() + "\n" + 
+							"CPF: " + this.ligacoes.get(i).getCliente().getCPF() + "\n" + 
+							"Data de Nascimento: " + this.ligacoes.get(i).getCliente().getDataDeNascimento() + "\n" + 
+							"Numero de Telefone: " + this.ligacoes.get(i).getCliente().getNumeroDeTelefone() + "\n" + 
+							"Cidade: " + this.ligacoes.get(i).getCliente().getCidade() + "\n" + 
+							"UF: "+ this.ligacoes.get(i).getCliente().getUF() + "\n" + 
+							"-Chamada Dadas-" + "\n" + this.ligacoes.get(i);
+			}
+		}return resultado;
+    }    
 }

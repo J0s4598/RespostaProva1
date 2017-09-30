@@ -23,8 +23,8 @@ public class Cliente {
 	
 	//ToSrting
 	public String toString() {
-		return "Cliente [nome=" + nome + ", CPF=" + CPF + ", dataDeNascimento=" + dataDeNascimento
-				+ ", numeroDeTelefone=" + numeroDeTelefone + ", cidade=" + cidade + ", UF=" + UF + "]";
+		return "Cliente [nome: " + nome + ", CPF: " + CPF + ", dataDeNascimento: " + dataDeNascimento
+				+ ", numeroDeTelefone: " + numeroDeTelefone + ", cidade: " + cidade + ", UF: " + UF + "]";
 	}
 
 	//Get e Set

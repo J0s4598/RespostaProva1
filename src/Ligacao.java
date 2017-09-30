@@ -26,9 +26,9 @@ public class Ligacao {
 	
 	@Override
 	public String toString() {
-		return "Ligacao [codigo=" + codigo + ", numeroDeTelefoneDestino=" + numeroDeTelefoneDestino
-				+ ", dataEHoraDeInicio=" + dataEHoraDeInicio + ", dataEHoraDeFim=" + dataEHoraDeFim
-				+ ", cidadeDeDestino=" + cidadeDeDestino + ", UFDeDestino=" + UFDeDestino + ", cliente=" + cliente
+		return "Ligacao [codigo: " + codigo + ", numeroDeTelefoneDestino: " + numeroDeTelefoneDestino
+				+ ", dataEHoraDeInicio: " + dataEHoraDeInicio + ", dataEHoraDeFim: " + dataEHoraDeFim
+				+ ", cidadeDeDestino: " + cidadeDeDestino + ", UFDeDestino: " + UFDeDestino + ", cliente: " + cliente
 				+ "]";
 	}
 
